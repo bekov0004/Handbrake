@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.contener{
+    background: rgb(255, 250, 250);
+    background: linear-gradient(0deg,rgba(255,250,250,1)0%, rgba(27,163,180,1)100%);
+}
+.contener_Handbrake{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.main_contener_Handbrake{
+    width: 80%; 
+}
+/*-------------------------navbar-------------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p_Docs{
+   color: #042b79;;
+}
+.p_Downloads{
+    padding: 9px 18px;
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+}
+/* -------------Handbrake and noutbook----------- */
+.contener_Handbrake_Noutbook{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.Handbrake_Noutbook{
+    display: flex;
+    width: 90%;
+    padding:98px 0px ;
+}
+.h1_Handbrake{
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 108px;
+    color: #25468A;
+    padding: 40px 0px 8px 0px;
+}
+.h1_The_open{
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 37.5px;
+    color: #3B4A6B;
+    padding-bottom: 25px;
+}
+.p_HandBrake_is{
+    font-size: 20px;
+    line-height: 23px;
+    color:  #3B4A6B;
+    padding-bottom: 25px;
+}
+.button_Download_for_Free{
+    padding: 15px 85px;
+    background-color: #F7BA0E;
+    color: #3B4A6B;
+    border-radius: 26px;
+    border: none;
+    font-size: 18px;
+}
+
+/* ------Conver_Free_Multi-----*/
+.contener_Just_a_few{
+    display: flex;
+    justify-content: center;
+}
+.main_Just_a_few{
+    width: 80%;
+}
+.Conver_Free_Multi{
+    display: flex;
+    justify-content: space-between;
+}
+.padding_backgrount {
+    width: 342px;
+    height:169px ;
+    background-color: #1391CE;
+    border-radius: 8px;
+}
+.padding_backgrount p{
+    font-size: 22px;
+    padding-top:55px;
+    color: white;
+    line-height: 26px;
+    text-align: center;
+}
+/*  Just a few reason you will love HandBrake  */
+.Just{
+    text-align: center;
+}
+.h1_Just{
+    color:  #1391CE;
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: 63px;
+    padding-bottom: 15px;
+}
+hr{
+    margin: auto;
+    border-radius: 4px;
+   width: 160px;
+   height: 8px; 
+    background-color:  #F7BA0E;
+}
+/* -----Built-in Device Presets------- */
+.Built_in_Device_Presets{
+    display: flex;
+    /* justify-content: space-betw; */
+}
+.left_img_Built{
+    width: 48%;
+}
+.right_text_Built{
+    width: 48%;
+}
